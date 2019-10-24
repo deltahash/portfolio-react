@@ -1,3 +1,42 @@
-.Navbar {
-  background-color: 'green';
+nav {
+  background-color: #1f9a95;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0.5rem 1rem;
+  overflow: hidden;
+}
+nav li {
+  float: right;
+}
+
+@media only screen and (min-width: 1024px) {
+  nav {
+    padding: 0rem 5rem;
+    background-color: #1f9a95;
+  }
+  nav .logo {
+    float: left;
+  }
+  nav .logo img {
+    height: 2rem;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0.5rem 0rem;
+    overflow: hidden;
+  }
+  nav li {
+    float: right;
+  }
+  nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 0.55rem 0 0 2rem;
+    text-decoration: none;
+  }
 }

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="195.25" height="46.336" viewBox="0 0 195.25 46.336">
+  <g id="logo" transform="translate(-11.651 -9)">
+    <line id="Line_7" data-name="Line 7" y1="36.653" x2="37.55" transform="translate(12 9.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="Line_8" data-name="Line 8" y1="36.137" x2="36.137" transform="translate(22.135 18.846)" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="Line_9" data-name="Line 9" x2="36.76" y2="37.071" transform="translate(21.512 9.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    <path id="Path_3" data-name="Path 3" d="M0,0,24.349,24.349l8.984,8.984" transform="translate(15.593 15)" fill="none" stroke="#fff" stroke-width="1"/>
+    <line id="Line_10" data-name="Line 10" x2="28.972" transform="translate(20.578 9.5)" fill="none" stroke="#fff" stroke-width="1"/>
+    <text id="deltaHash" transform="translate(142.901 43.5)" fill="#fff6f6" font-size="28" font-family="SegoeUI-Semibold, Segoe UI" font-weight="600"><tspan x="-63.684" y="0">deltaHash</tspan></text>
+  </g>
+</svg>

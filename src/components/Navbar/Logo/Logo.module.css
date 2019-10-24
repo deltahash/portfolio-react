@@ -1,3 +1,7 @@
-.Logo {
-  background-color: 'red';
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 2rem;
 }
