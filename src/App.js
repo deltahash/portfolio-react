@@ -1,13 +1,17 @@
-import React from 'react';
+import React from "react";
 
-import Jumbotron from './components/Jumbotron/Jumbotron';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from "./components/Navbar/Navbar";
+import Jumbotron from "./containers/Jumbotron/Jumbotron";
+import Techs from "./components/Techs/Techs";
+import Tiles from "./containers/Tiles/Tiles";
 
 const app = () => {
   return (
     <div className="App">
       <Navbar />
       <Jumbotron />
+      <Techs />
+      <Tiles />
     </div>
   );
 };

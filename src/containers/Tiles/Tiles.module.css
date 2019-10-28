@@ -1,0 +1,25 @@
+.TilesBoxWindow {
+  padding: 4rem 5rem;
+}
+
+.TilesBoxWindow .TilePair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.TilesBoxMobile {
+  padding: 1rem 0;
+}
+
+.TilesBoxMobile .TilePair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}

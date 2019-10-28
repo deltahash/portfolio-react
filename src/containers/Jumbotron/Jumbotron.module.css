@@ -1,0 +1,13 @@
+.Jumbotron .JumbolWindow {
+  margin: 2rem 5rem;
+  background: #1f9a95;
+  height: 40rem;
+  position: relative;
+}
+
+.JumbolMobile {
+  margin: 0.5rem 0;
+  background: #1f9a95;
+  height: 20rem;
+  position: relative;
+}
