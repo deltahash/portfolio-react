@@ -1,0 +1,45 @@
+.ProfilePrimary {
+  background: #1f9a95;
+  padding: 1rem 0;
+  text-align: center;
+  color: #ffffff;
+}
+
+.ProfilePrimary h2 {
+  font-size: 1.2rem;
+}
+
+.ProfilePrimary h3 {
+  font-size: 0.9rem;
+}
+
+.ProfilePrimary .ProfileImage {
+  margin: 1rem auto;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 4rem;
+  background: #ffffff;
+}
+
+.ProfileSecondary {
+  background: #ffffff;
+  padding: 1rem 0;
+  text-align: center;
+  color: #000000;
+}
+
+.ProfileSecondary h2 {
+  font-size: 1.2rem;
+}
+
+.ProfileSecondary h3 {
+  font-size: 0.9rem;
+}
+
+.ProfileSecondary .ProfileImage {
+  margin: 1rem auto;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 4rem;
+  background: #1f9a95;
+}

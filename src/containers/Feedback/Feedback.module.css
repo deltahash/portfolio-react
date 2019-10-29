@@ -1,0 +1,25 @@
+.FeedbackWindow {
+  background: #1f9a95;
+  padding: 1rem 0;
+  margin: 4rem 5rem;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+
+.FeedbackWindow .FeedbackPair {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.FeedbackMobile {
+  background: #1f9a95;
+  padding: 1rem 0;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}

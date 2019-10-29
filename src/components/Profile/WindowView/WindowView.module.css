@@ -1,0 +1,61 @@
+.ProfilesWindow {
+  margin: 0 5rem;
+}
+.ProfilePrimary {
+  background: #1f9a95;
+  padding: 1rem 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #ffffff;
+}
+
+.ProfilePrimary h2 {
+  font-size: 2.2rem;
+}
+
+.ProfilePrimary h3 {
+  font-size: 1.8rem;
+}
+
+.ProfilePrimary .ProfileImage {
+  margin: 1rem 8rem 1rem auto;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 7.5rem;
+  background: #ffffff;
+}
+
+.ProfilePrimary .ProfileInfo {
+  margin: 1rem auto 1rem 2rem;
+}
+
+.ProfileSecondary {
+  background: #f1f1f1;
+  padding: 1rem 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #000000;
+}
+
+.ProfileSecondary h2 {
+  font-size: 2.2rem;
+}
+
+.ProfileSecondary h3 {
+  font-size: 1.8rem;
+  text-align: end;
+}
+
+.ProfileSecondary .ProfileImage {
+  margin: 1rem auto 1rem 8rem;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 7.5rem;
+  background: #1f9a95;
+}
+
+.ProfileSecondary .ProfileInfo {
+  margin: 1rem 2rem 1rem auto;
+}
