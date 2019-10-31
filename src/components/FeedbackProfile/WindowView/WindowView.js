@@ -9,7 +9,7 @@ const WindowView = () => (
   <div className="globalWindowDisplay">
     <Avatar className={classes.ProfileImage} />
 
-    <div classname={classes.FeedbackBlock}>
+    <div className={classes.FeedbackBlock}>
       <FeedbackItem />
     </div>
   </div>

@@ -1,16 +1,17 @@
 import React from "react";
-import Logo from "../../../assets/image/Logo.svg";
+
+import Image from "../../UI/Image/Image";
+
+import LogoImage from "../../../assets/image/Logo.svg";
+
 import classes from "./Logo.module.css";
 
-const logo = props => {
-  return (
-    <div className={classes.Logo}>
-      {" "}
-      <li className={classes.logo}>
-        <img src={Logo} alt="LOGO" />
-      </li>
-    </div>
-  );
-};
+const Logo = () => (
+  <div className={classes.Logo}>
+    <li className={classes.logo}>
+      <Image src={LogoImage} />
+    </li>
+  </div>
+);
 
-export default logo;
+export default Logo;

@@ -4,11 +4,11 @@ import MobileProfile from "./MobileView/MobileView";
 export default function Profile() {
   return (
     <div>
-      <div class="globalWindowDisplay">
+      <div className="globalWindowDisplay">
         <WindowProfile />
       </div>
 
-      <div class="mobileDisplay">
+      <div className="mobileDisplay">
         <MobileProfile />
       </div>
     </div>
