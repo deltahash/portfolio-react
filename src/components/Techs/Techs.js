@@ -7,7 +7,7 @@ import IOSLogo from "../../assets/image/IOS.svg";
 export default function Techs() {
   return (
     <div>
-      <div className="windowDisplay">
+      <div className="globalWindowDisplay">
         <div className={classes.TechsWindow}>
           <div>
             <img src={ReactLogo} alt="" />

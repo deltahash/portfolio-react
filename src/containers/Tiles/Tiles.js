@@ -6,7 +6,7 @@ import SecondaryTile from "../../components/Tilepair/SecondaryTile/SecondaryTile
 export default function Tiles() {
   return (
     <div>
-      <div className="windowDisplay">
+      <div className="globalWindowDisplay">
         <div className={classes.TilesBoxWindow}>
           <div className={classes.TilePair}>
             <PrimaryTile />

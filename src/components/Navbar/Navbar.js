@@ -10,16 +10,16 @@ const navbar = () => {
       <nav>
         <ul>
           <Logo />
-          <li className="windowDisplay">
+          <li className="globalWindowDisplay">
             <a href="#home">TECHS</a>
           </li>
-          <li className="windowDisplay">
+          <li className="globalWindowDisplay">
             <a href="#news">PROJECTS</a>
           </li>
-          <li className="windowDisplay">
+          <li className="globalWindowDisplay">
             <a href="#contact">PORTFOLIO</a>
           </li>
-          <li className="windowDisplay">
+          <li className="globalWindowDisplay">
             <a href="#about">FEEDBACK</a>
           </li>
           <li className="mobileDisplay">

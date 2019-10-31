@@ -6,7 +6,7 @@ import MobileProfile from "../../components/FeedbackProfile/MobileView/MobileVie
 export default function Feedback() {
   return (
     <div>
-      <div className="windowDisplay">
+      <div className="globalWindowDisplay">
         <div className={classes.FeedbackWindow}>
           <div className={classes.FeedbackPair}>
             <WindowProfile />

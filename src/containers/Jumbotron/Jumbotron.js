@@ -10,7 +10,7 @@ const jumbotron = props => {
           <SliderDot></SliderDot>
         </div>
       </div>
-      <div className="windowDisplay">
+      <div className="globalWindowDisplay">
         <div className={classes.JumbolWindow}>
           <SliderDot></SliderDot>
         </div>

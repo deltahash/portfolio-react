@@ -4,7 +4,7 @@ import MobileProfile from "./MobileView/MobileView";
 export default function Profile() {
   return (
     <div>
-      <div class="windowDisplay">
+      <div class="globalWindowDisplay">
         <WindowProfile />
       </div>
 
