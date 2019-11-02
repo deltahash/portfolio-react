@@ -1,6 +1,6 @@
 import React from "react";
-import Dot from "../../components/Dots/Dot/Dot";
-import CurrentDot from "../../components/Dots/CurrentDot/CurrentDot";
+import Dot from "../Dots/Dot/Dot";
+import CurrentDot from "../Dots/CurrentDot/CurrentDot";
 
 import classes from "./SliderDots.module.css";
 

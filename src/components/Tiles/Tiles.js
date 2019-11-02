@@ -1,8 +1,8 @@
 import React from "react";
 
 import classes from "./Tiles.module.css";
-import PrimaryTile from "../../components/Tilepair/PrimaryTile/PrimaryTile";
-import SecondaryTile from "../../components/Tilepair/SecondaryTile/SecondaryTile";
+import PrimaryTile from "../Tilepair/PrimaryTile/PrimaryTile";
+import SecondaryTile from "../Tilepair/SecondaryTile/SecondaryTile";
 
 const Tiles = () => (
   <div>
