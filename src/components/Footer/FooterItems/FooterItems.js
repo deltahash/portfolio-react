@@ -1,6 +1,6 @@
 import React from "react";
 
-const FooterItem = () => (
+const FooterItems = () => (
   <div>
     <h3>Contact Us</h3>
     <h3>Privacy</h3>
@@ -8,4 +8,4 @@ const FooterItem = () => (
   </div>
 );
 
-export default FooterItem;
+export default FooterItems;

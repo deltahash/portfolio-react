@@ -2,7 +2,7 @@ import React from "react";
 import classes from "./Footer.module.css";
 
 import Image from "../UI/Image/Image";
-import FooterItem from "./FooterItem/FooterItem";
+import FooterItems from "./FooterItems/FooterItems";
 
 import FacebookImage from "../../assets/images/ic_facebook.svg";
 import InstagramImage from "../../assets/images/ic_instagram.svg";
@@ -12,7 +12,7 @@ import GithubLogoImage from "../../assets/images/ic_git.svg";
 const Footer = () => (
   <footer className={classes.Footer}>
     <div className={classes.FooterMenuItemsWindow}>
-      <FooterItem />
+      <FooterItems />
     </div>
 
     <div className={classes.SocialItemsWindow}>
@@ -25,7 +25,7 @@ const Footer = () => (
     </div>
 
     <div className={classes.FooterMenuItemsMobile}>
-      <FooterItem />
+      <FooterItems />
     </div>
 
     <div className={classes.SocialItemsMobile}>
