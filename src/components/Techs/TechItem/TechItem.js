@@ -1,7 +1,7 @@
-import React, { Fragment } from "react";
-import PropTypes from "prop-types";
+import React, { Fragment } from 'react';
+import PropTypes from 'prop-types';
 
-import Image from "../../UI/Image/Image";
+import Image from '../../UI/Image/Image';
 
 const TechItem = ({ src, title }) => {
   return (

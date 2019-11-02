@@ -1,10 +1,10 @@
-import React from "react";
+import React from 'react';
 
-import Slider from "../SliderDots/Sliderdots";
-import MobileProfile from "./FeedbackProfile/MobileView/MobileView";
-import WindowProfile from "./FeedbackProfile/WindowView/WindowView";
+import Slider from '../SliderDots/Sliderdots';
+import MobileProfile from './FeedbackProfile/MobileView/MobileView';
+import WindowProfile from './FeedbackProfile/WindowView/WindowView';
 
-import classes from "./Feedback.module.css";
+import classes from './Feedback.module.css';
 
 const Feedback = () => (
   <div>

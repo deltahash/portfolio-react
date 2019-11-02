@@ -1,6 +1,6 @@
-import React from "react";
-import SliderDot from "../SliderDots/Sliderdots";
-import classes from "./Jumbotron.module.css";
+import React from 'react';
+import SliderDot from '../SliderDots/Sliderdots';
+import classes from './Jumbotron.module.css';
 
 const Jumbotron = () => (
   <div className={classes.Jumbotron}>

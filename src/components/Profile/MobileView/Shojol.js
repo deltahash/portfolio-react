@@ -1,5 +1,5 @@
-import React from "react";
-import classes from "./MobileView.module.css";
+import React from 'react';
+import classes from './MobileView.module.css';
 
 export default function Shojol() {
   return (

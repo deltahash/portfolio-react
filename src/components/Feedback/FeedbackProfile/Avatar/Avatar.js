@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import classes from "./Avatar.module.css";
+import classes from './Avatar.module.css';
 
 const Avatar = () => (
   <div>

@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import Avatar from "../Avatar/Avatar";
-import FeedbackItem from "../FeedbackItem/FeedbackItem";
+import Avatar from '../Avatar/Avatar';
+import FeedbackItem from '../FeedbackItem/FeedbackItem';
 
 const MobileView = () => (
   <div>

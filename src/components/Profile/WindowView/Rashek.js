@@ -1,5 +1,5 @@
-import React from "react";
-import classes from "./WindowView.module.css";
+import React from 'react';
+import classes from './WindowView.module.css';
 
 export default function() {
   return (

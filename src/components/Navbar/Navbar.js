@@ -1,30 +1,30 @@
-import React from "react";
-import uuidv4 from "uuid/v4";
+import React from 'react';
+import uuidv4 from 'uuid/v4';
 
-import NavbarItem from "./NavbarItem/NavbarItem";
-import Image from "../UI/Image/Image";
-import Logo from "./Logo/Logo";
+import NavbarItem from './NavbarItem/NavbarItem';
+import Image from '../UI/Image/Image';
+import Logo from './Logo/Logo';
 
-import HamburgerImage from "../../assets/images/ic_hamburger.svg";
+import HamburgerImage from '../../assets/images/ic_hamburger.svg';
 
-import classes from "./Navbar.module.css";
+import classes from './Navbar.module.css';
 
 const navItems = [
   {
     id: uuidv4(),
-    title: "Techs"
+    title: 'Techs'
   },
   {
     id: uuidv4(),
-    title: "Projects"
+    title: 'Projects'
   },
   {
     id: uuidv4(),
-    title: "Portfolio"
+    title: 'Portfolio'
   },
   {
     id: uuidv4(),
-    title: "Feedback"
+    title: 'Feedback'
   }
 ];
 

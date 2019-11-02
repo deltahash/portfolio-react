@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 
-import Navbar from "./components/Navbar/Navbar";
-import Jumbotron from "./components/Jumbotron/Jumbotron";
-import Techs from "./components/Techs/Techs";
-import Tiles from "./components/Tiles/Tiles";
-import Profile from "./components/Profile/Profile";
-import Feedback from "./components/Feedback/Feedback";
-import Footer from "./components/Footer/Footer";
+import Navbar from './components/Navbar/Navbar';
+import Jumbotron from './components/Jumbotron/Jumbotron';
+import Techs from './components/Techs/Techs';
+import Tiles from './components/Tiles/Tiles';
+import Profile from './components/Profile/Profile';
+import Feedback from './components/Feedback/Feedback';
+import Footer from './components/Footer/Footer';
 
 const app = () => {
   return (

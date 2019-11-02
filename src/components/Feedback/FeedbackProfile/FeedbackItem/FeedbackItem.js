@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import classes from "./FeedbackItem.module.css";
+import classes from './FeedbackItem.module.css';
 
 const FeedbackItem = () => (
   <div className={classes.FeedbackItem}>

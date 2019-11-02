@@ -1,34 +1,34 @@
-import React from "react";
-import uuidv4 from "uuid/v4";
+import React from 'react';
+import uuidv4 from 'uuid/v4';
 
-import TechItem from "./TechItem/TechItem";
+import TechItem from './TechItem/TechItem';
 
-import classes from "./Techs.module.css";
+import classes from './Techs.module.css';
 
-import ReactImage from "../../assets/images/ic_react.svg";
-import DotnetImage from "../../assets/images/ic_dotnet.svg";
-import AndroidImage from "../../assets/images/ic_android.svg";
-import IosImage from "../../assets/images/ic_ios.svg";
+import ReactImage from '../../assets/images/ic_react.svg';
+import DotnetImage from '../../assets/images/ic_dotnet.svg';
+import AndroidImage from '../../assets/images/ic_android.svg';
+import IosImage from '../../assets/images/ic_ios.svg';
 
 const techItemsData = [
   {
     id: uuidv4(),
-    title: "React",
+    title: 'React',
     imageSrc: ReactImage
   },
   {
     id: uuidv4(),
-    title: "Dotnet Core",
+    title: 'Dotnet Core',
     imageSrc: DotnetImage
   },
   {
     id: uuidv4(),
-    title: "Android",
+    title: 'Android',
     imageSrc: AndroidImage
   },
   {
     id: uuidv4(),
-    title: "iOS",
+    title: 'iOS',
     imageSrc: IosImage
   }
 ];

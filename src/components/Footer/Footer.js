@@ -1,13 +1,13 @@
-import React from "react";
-import classes from "./Footer.module.css";
+import React from 'react';
+import classes from './Footer.module.css';
 
-import Image from "../UI/Image/Image";
-import FooterItems from "./FooterItems/FooterItems";
+import Image from '../UI/Image/Image';
+import FooterItems from './FooterItems/FooterItems';
 
-import FacebookImage from "../../assets/images/ic_facebook.svg";
-import InstagramImage from "../../assets/images/ic_instagram.svg";
-import LinkedinImage from "../../assets/images/ic_linkedin.svg";
-import GithubLogoImage from "../../assets/images/ic_git.svg";
+import FacebookImage from '../../assets/images/ic_facebook.svg';
+import InstagramImage from '../../assets/images/ic_instagram.svg';
+import LinkedinImage from '../../assets/images/ic_linkedin.svg';
+import GithubLogoImage from '../../assets/images/ic_git.svg';
 
 const Footer = () => (
   <footer className={classes.Footer}>

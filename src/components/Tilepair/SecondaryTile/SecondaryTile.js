@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import classes from "./SecondaryTile.module.css";
+import classes from './SecondaryTile.module.css';
 
-import SecodaryTileImage from "../../../assets/images/SecondaryTile.svg";
+import SecodaryTileImage from '../../../assets/images/SecondaryTile.svg';
 
 const SecondaryTile = () => (
   <div className={classes.TileSecondary}>

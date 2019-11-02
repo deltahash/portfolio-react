@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import classes from "./PrimaryTile.module.css";
+import classes from './PrimaryTile.module.css';
 
-import PrimaryTileImage from "../../../assets/images/PrimaryTile.svg";
+import PrimaryTileImage from '../../../assets/images/PrimaryTile.svg';
 
 const PrimaryTile = () => (
   <div className={classes.TilePrimary}>

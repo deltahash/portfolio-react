@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import classes from "./CurrentDot.module.css";
+import classes from './CurrentDot.module.css';
 
 const CurrentDot = () => (
   <div>

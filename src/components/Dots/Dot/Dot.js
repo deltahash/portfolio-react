@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import classes from "./Dot.module.css";
+import classes from './Dot.module.css';
 
 const Dot = () => (
   <div>
