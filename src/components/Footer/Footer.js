@@ -4,10 +4,10 @@ import classes from "./Footer.module.css";
 import Image from "../UI/Image/Image";
 import FooterItem from "./FooterItem/FooterItem";
 
-import FacebookImage from "../../assets/image/facebook.svg";
-import InstagramImage from "../../assets/image/Instagram.svg";
-import LinkedinImage from "../../assets/image/linkedin.svg";
-import GithubLogoImage from "../../assets/image/Git.svg";
+import FacebookImage from "../../assets/images/ic_facebook.svg";
+import InstagramImage from "../../assets/images/ic_instagram.svg";
+import LinkedinImage from "../../assets/images/ic_linkedin.svg";
+import GithubLogoImage from "../../assets/images/ic_git.svg";
 
 const Footer = () => (
   <footer className={classes.Footer}>

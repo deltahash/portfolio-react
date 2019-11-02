@@ -5,7 +5,7 @@ import NavbarItem from "./NavbarItem/NavbarItem";
 import Image from "../UI/Image/Image";
 import Logo from "./Logo/Logo";
 
-import Menu from "../../assets/image/hamburger.svg";
+import HamburgerImage from "../../assets/image/ic_hamburger.svg";
 
 import classes from "./Navbar.module.css";
 
@@ -40,7 +40,7 @@ const Navbar = () => {
         <Logo />
         {navbarItems}
         <li className="mobileDisplay">
-          <Image src={Menu} />
+          <Image src={HamburgerImage} />
         </li>
       </ul>
     </nav>

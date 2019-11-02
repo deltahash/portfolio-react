@@ -2,7 +2,7 @@ import React from "react";
 
 import Image from "../../UI/Image/Image";
 
-import LogoImage from "../../../assets/image/Logo.svg";
+import LogoImage from "../../../assets/images/logo.svg";
 
 import classes from "./Logo.module.css";
 
