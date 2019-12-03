@@ -4,8 +4,11 @@ import FacebookImage from '../../assets/images/ic_facebook.svg';
 import InstagramImage from '../../assets/images/ic_instagram.svg';
 import LinkedinImage from '../../assets/images/ic_linkedin.svg';
 import GithubLogoImage from '../../assets/images/ic_git.svg';
+import FooterItem from './FooterItems/FooterItemsMobile';
+import SocialFooterMobile from './FooterSocialItems/SocialItemsMobile';
 
 import classes from './FlatFooter.module.css';
+// import SocialItemsMobile from './FooterSocialItems/SocialItemsMobile';
 
 function FlatFooter() {
   return (
@@ -21,6 +24,8 @@ function FlatFooter() {
         <Image src={InstagramImage} />
         <Image src={LinkedinImage} />
       </div>
+      <FooterItem />
+      <SocialFooterMobile />
     </div>
   );
 }

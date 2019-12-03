@@ -1,0 +1,12 @@
+.FeedbackButton {
+  margin: 0 5rem;
+  display: flex;
+  justify-content: center;
+}
+.FeedbackButton button {
+  background: #284342;
+  font-size: 1.2rem;
+  color: #ffffff;
+  border: 0;
+  padding: 1rem 2rem;
+}

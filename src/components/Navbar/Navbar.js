@@ -1,5 +1,6 @@
 import React from 'react';
 import uuidv4 from 'uuid/v4';
+import { Link } from 'react-router-dom';
 
 import NavbarItem from './NavbarItem/NavbarItem';
 import Image from '../UI/Image/Image';
@@ -37,7 +38,10 @@ const Navbar = () => {
   return (
     <nav className={classes.Navbar}>
       <ul>
-        <Logo />
+        <Link to="/">
+          <Logo />
+        </Link>
+
         {navbarItems}
         <li className="mobileDisplay">
           <Image src={HamburgerImage} />
