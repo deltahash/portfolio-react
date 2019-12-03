@@ -1,5 +1,4 @@
 import React from 'react';
-import FlatFooter from '../Footer/FlatFooter';
 import classes from './OrderContent.module.css';
 
 function OrderContent() {
@@ -9,7 +8,6 @@ function OrderContent() {
         <h1>MAKE AN ORDER</h1>
         <button>SUBMIT</button>
       </div>
-      <FlatFooter />
     </div>
   );
 }

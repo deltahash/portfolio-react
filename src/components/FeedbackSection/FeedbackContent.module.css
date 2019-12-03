@@ -1,0 +1,53 @@
+.FeedbackContent {
+  background: #1f9a95;
+  height: calc(100vh - 121px);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Card {
+  background: #ffffff;
+  width: 40rem;
+  text-align: center;
+}
+.Card h1 {
+  padding: 1rem;
+  color: #284342;
+}
+.LowerDivision {
+  width: 100%;
+  display: flex;
+}
+.PhotoSection {
+  width: 50%;
+  align-items: center;
+}
+.PhotoSection button {
+  background: #284342;
+  font-size: 1rem;
+  color: #ffffff;
+  border: 0;
+  border-radius: 20px;
+  padding: 0.5rem 1.7rem;
+  margin: 2rem 0;
+}
+.PhotoDiv {
+  margin: 0 auto;
+  height: 10rem;
+  width: 10rem;
+  border: 1px solid gray;
+  border-radius: 5rem;
+}
+.FormSection {
+  width: 50%;
+  text-align: center;
+}
+.FormSection button {
+  background: #284342;
+  font-size: 1rem;
+  color: #ffffff;
+  border: 0;
+  padding: 0.5rem 1.7rem;
+}

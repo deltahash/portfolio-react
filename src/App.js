@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Navbar from './components/Navbar/Navbar';
-import Dashboard from './pages/Dashboard';
+import Dashboard from './pages/dashboard';
 import Order from './pages/order';
 import FeedbackSection from './pages/feedback_section';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';

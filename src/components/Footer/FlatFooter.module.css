@@ -3,8 +3,6 @@
   display: flex;
   justify-content: space-around;
   background: #284342;
-  position: absolute;
-  bottom: 0;
 }
 .FlatFooterText {
   margin: 0 5rem;
