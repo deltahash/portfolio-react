@@ -1,0 +1,18 @@
+.OrderButton {
+  width: 100%;
+  position: absolute;
+  bottom: 5rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.OrderButton button {
+  background: #284342;
+  font-size: 1.2rem;
+  color: #ffffff;
+  border: 0;
+  padding: 1rem 2rem;
+}

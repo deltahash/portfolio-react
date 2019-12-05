@@ -26,11 +26,3 @@
 .FlatFooterSocial img {
   margin: 0 0.5rem;
 }
-@media only screen and (max-width: 1024px) {
-  .FlatFooter .FlatFooterText {
-    display: none;
-  }
-  .FlatFooter .FlatFooterSocial {
-    display: none;
-  }
-}

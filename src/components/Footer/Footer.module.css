@@ -82,3 +82,13 @@ footer .SocialItemsMobile .Paired {
 footer .SocialItemsMobile .Paired img {
   margin: 0 0.5rem;
 }
+@media only screen and (max-width: 1024px) {
+  .WindowDisplay {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .MobileDisplay {
+    display: none;
+  }
+}

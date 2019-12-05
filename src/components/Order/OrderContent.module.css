@@ -5,14 +5,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
 }
 
 .Card {
   background: #ffffff;
   width: 40rem;
   text-align: center;
-  position: relative;
 }
 .Card h1 {
   padding: 2rem;
@@ -26,4 +24,14 @@
   border: 0;
   padding: 0.5rem 1.7rem;
   margin: 2rem 0;
+}
+@media only screen and (max-width: 1024px) {
+  .OrderContent {
+    background: #ffffff;
+    height: auto;
+    display: block;
+  }
+  .Card {
+    width: 100%;
+  }
 }
