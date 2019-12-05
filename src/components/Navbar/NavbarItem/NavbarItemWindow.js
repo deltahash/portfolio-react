@@ -1,14 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const NavbarItem = ({ title }) => (
+const NavbarItemWindow = ({ title }) => (
   <li className="globalWindowDisplay">
     <a href="#home">{title.toUpperCase()}</a>
   </li>
 );
 
-NavbarItem.propTypes = {
+NavbarItemWindow.propTypes = {
   title: PropTypes.string.isRequired
 };
 
-export default NavbarItem;
+export default NavbarItemWindow;

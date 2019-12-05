@@ -2,7 +2,9 @@ import React from 'react';
 import uuidv4 from 'uuid/v4';
 import { Link } from 'react-router-dom';
 
-import NavbarItem from './NavbarItem/NavbarItem';
+import NavbarItemWindow from './NavbarItem/NavbarItemWindow';
+
+import NavbarItemMobile from './NavbarItem/NavbarItemMobile';
 import Image from '../UI/Image/Image';
 import Logo from './Logo/Logo';
 
@@ -30,9 +32,11 @@ const navItems = [
 ];
 
 const Navbar = () => {
-  const navbarItems = navItems.reverse().map(navItem => {
-    console.log(navItem);
-    return <NavbarItem key={navItem.id} title={navItem.title} />;
+  const navbarItemsWindow = navItems.reverse().map(navItem => {
+    return <NavbarItemWindow key={navItem.id} title={navItem.title} />;
+  });
+  const navbarItemsMobile = navItems.reverse().map(navItem => {
+    return <NavbarItemMobile key={navItem.id} title={navItem.title} />;
   });
 
   return (
@@ -42,9 +46,13 @@ const Navbar = () => {
           <Logo />
         </Link>
 
-        {navbarItems}
+        {navbarItemsWindow}
         <li className="mobileDisplay">
-          <Image src={HamburgerImage} />
+          <a href="/">
+            <Image src={HamburgerImage} />
+          </a>
+
+          <ul>{navbarItemsMobile}</ul>
         </li>
       </ul>
     </nav>
